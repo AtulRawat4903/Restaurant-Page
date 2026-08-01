@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)),
+        url("./images/restaurant.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, .75);
+    backdrop-filter: blur(8px);
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav button {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .8rem 1.4rem;
+    transition: .3s;
+}
+
+nav button:hover {
+    color: #ffb703;
+}
+
+.active {
+    color: #ffb703;
+    border-bottom: 2px solid #ffb703;
+}
+
+#content {
+    min-height: calc(100vh - 80px);
+
+    display: flex;
+    justify-content: center;
+
+    padding: 2rem 2rem 0;
+}
+
+.home {
+    width: 100%;
+    max-width: 900px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    letter-spacing: 4px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+}
+
+.about h2,
+.hours h2,
+.location h2 {
+    margin-bottom: 1rem;
+    color: #ffb703;
+}
+
+.about p,
+.location p {
+    line-height: 1.8;
+}
+
+.about,
+.hours,
+.location,
+.contact,
+.menu {
+    background: rgba(15, 15, 15, .75);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 2rem;
+    color: white;
+}
+
+.about,
+.hours,
+.location {
+    margin-top: 2rem;
+}
+
+.hours ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.hours li {
+    margin-bottom: 0.7rem;
+}
+
+.menu {
+    width: 100%;
+    max-width: 1000px;
+
+    text-align: center;
+
+    margin-bottom: 12px;
+}
+
+.menu h1 {
+    margin-bottom: 2rem;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.pizza-card {
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.pizza-card:hover {
+    transform: translateY(-6px);
+}
+
+.pizza-card h2 {
+    margin-bottom: 0.75rem;
+}
+
+.pizza-card p:first-of-type {
+    margin-bottom: 0.75rem;
+}
+
+.contact {
+    width: 100%;
+    max-width: 600px;
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: rgba(15, 15, 15, 0.75);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 12px;
+}
+
+.contact h1 {
+    margin-bottom: 2rem;
+}
+
+.contact p {
+    margin-bottom: 0.6rem;
+}
