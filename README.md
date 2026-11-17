@@ -1,6 +1,6 @@
 # 🍕 Pizzaiolo
 
-A modern restaurant website built as part of **The Odin Project**. The site features a single-page application (SPA) architecture where content is dynamically rendered using JavaScript modules without reloading the page.
+A restaurant website built as part of **The Odin Project**. The site features a single-page application (SPA) architecture where content is dynamically rendered using JavaScript modules without reloading the page.
 
 ## 🌐 Live Demo
 
@@ -44,6 +44,3 @@ Through this project, I gained hands-on experience with:
 
 ---
 
-## 🙏 Acknowledgements
-
-Completed as part of **The Odin Project** JavaScript curriculum.
